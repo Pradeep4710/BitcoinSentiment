@@ -1,0 +1,45 @@
+PROJECT APPROACH AND OUTCOMES
+
+1. DATA PREPROCESSING
+
+* Loaded historical trade data and Fear & Greed index
+* Converted timestamps into datetime format
+* Extracted date and merged datasets on date
+* Forward-filled missing sentiment values
+
+2. FEATURE ENGINEERING
+
+* Created sentiment_score from classification
+* Generated target variable (is_profit)
+* Selected relevant numerical features for modeling
+
+3. EXPLORATORY DATA ANALYSIS
+
+* Analyzed average PnL across sentiment categories
+* Found highest profitability during Extreme Greed and Fear
+* Observed lowest performance in Neutral markets
+
+4. MACHINE LEARNING MODELS
+
+* Random Forest and XGBoost used for classification
+* Achieved ~90% accuracy in predicting profitable trades
+* Feature importance showed sentiment, trade size, and fees are key drivers
+
+5. CLUSTERING ANALYSIS
+
+* Applied KMeans clustering to identify trader types
+* Found distinct groups:
+
+  * Conservative traders
+  * High-profit traders
+  * Overtraders with high fees
+
+6. KEY INSIGHTS
+
+* Market sentiment strongly influences profitability
+* Both momentum (greed) and contrarian (fear) strategies work
+* Transaction fees significantly impact outcomes
+* Trader behavior varies across identifiable clusters
+
+7. CONCLUSION
+   This project demonstrates that combining sentiment analysis with trade data can provide meaningful insights into trader performance and strategy optimization.
