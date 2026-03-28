@@ -66,7 +66,10 @@ To uncover:
 ---
 
 ## ⚙️ How to Run
-
+### 0️⃣ Run the model.ipynb file in order to train and export PKL files
+```
+open in jupyter notebook and run all the cells
+```
 ### 1️⃣ Install dependencies
 
 ```
